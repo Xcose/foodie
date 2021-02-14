@@ -34,7 +34,7 @@ const Navigation = ({ home }) => {
 
 	return (
 		<Navbar
-			color={isDark ? "dark" : "transparent"}
+			color={isDark ? "secondary" : "transparent"}
 			light
 			expand="md"
 			fixed="top"

@@ -31,9 +31,7 @@ function Footer() {
 				<div className="col-12 col-lg-4 m-0">
 					<div className="mt-4 text-center">
 						<Link to="/gallery">
-							<b className="font-weight-bold text-white mx-2 border-right pr-3">
-								Gallery
-							</b>
+							<b className="font-weight-bold text-white mx-2 pr-3">Gallery</b>
 						</Link>
 						<Link to="/contact">
 							<b className="font-weight-bold text-white mx-2 pr-3">
