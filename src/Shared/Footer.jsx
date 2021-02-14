@@ -6,7 +6,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function Footer() {
 	return (
-		<footer className="page-footer w-100 font-small bg-dark text-white">
+		<footer className="page-footer w-100 font-small bg-secondary text-white">
 			<div className="row pb-4 m-0">
 				<div className="col-12 col-lg-4">
 					<div className="mt-4 text-center">
