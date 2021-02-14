@@ -35,7 +35,7 @@ body,
 	position: absolute;
 	width: 80%;
 	height: 1px;
-	background: black;
+	background: #8f8f8f;
 	top: 50%;
 	left: 10%;
 	z-index: -999999;
