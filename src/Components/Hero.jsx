@@ -16,7 +16,7 @@ const Hero = () => {
 			}}
 			className="w-100 rounded-0 p-0 bg-dark"
 		>
-			<div className="text-center h-100 w-100">
+			<div className="text-center h-100 w-100 hero-content">
 				<Navigation home={true} />
 				<div className="h-100 d-flex align-items-center justify-content-center justify-content-lg-center px-5 mx-5">
 					<div className="">

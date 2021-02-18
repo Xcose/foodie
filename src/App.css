@@ -87,6 +87,14 @@ body,
 	) !important;
 	left: 0;
 }
+.hero-content {
+	/* background: rgba(0, 0, 0, 0.8) !important; */
+	background: linear-gradient(
+		90deg,
+		rgba(144, 34, 195, 0.7),
+		rgba(253, 45, 175, 0.7)
+	) !important;
+}
 
 @keyframes App-logo-spin {
 	from {
