@@ -72,17 +72,37 @@ function ContactUs() {
 
 	return (
 		<div className="pt-5 text-center">
-			<p className="display-4 my-5 font-weight-bold title">
+			{/* <p className="display-4 my-5 font-weight-bold title">
 				<text className="px-lg-5">GET IN TOUCH</text>
-			</p>
+			</p> */}
 			<div className="row justify-content-around">
 				<div className="col-12 col-lg-5 d-flex justify-content-center align-items-center">
-					<div className="text-left text-muted h4">
-						<p>18 The Strand Street</p>
-						<p>Swartkops, Port Elizabeth</p>
-						<p>6210</p>
-						<p className="mt-5">076 661 3279</p>
-						<p>email@domain.co.za</p>
+					<div className="text-lg-left text-center h4 h-100">
+						<p className="display-4 my-5 font-weight-bold">
+							<text className="py-lg-5">GET IN TOUCH</text>
+						</p>
+						<p className="lead text-muted">
+							We would like to hear from you. Please fill out the form or use
+							one of out other contact platforms. We look forward to hearing
+							from you
+						</p>
+						<address className="lead text-muted mt-5">
+							18 The Strand Street
+							<br />
+							Swartkops
+							<br />
+							Port Elizabeth
+							<br />
+							6210
+							<br />
+							<br />
+							(+27) 73 694 3166
+						</address>
+						<p className="h5">
+							<a href="mailto:ntembekomonde@gmail.com" className="text-reset">
+								<u>ntembekomonde@gmail.com</u>
+							</a>
+						</p>
 					</div>
 				</div>
 				<div className="col-12 col-lg-5 p-5 text-left">

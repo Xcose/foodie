@@ -28,7 +28,7 @@ body,
 }
 .main-heading {
 	font-family: "Audiowide", cursive;
-	color: yellow;
+	color: yellow !important;
 }
 .title,
 .title-2 {

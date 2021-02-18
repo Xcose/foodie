@@ -10,16 +10,19 @@ function Footer() {
 			<div className="row pb-4 m-0">
 				<div className="col-12 col-lg-4">
 					<div className="mt-4 text-center">
-						<a href="mailto:info@sbwldata.co.za" className=" text-white mx-5">
+						<a
+							href="mailto:ntembekomonde@gmail.com"
+							className=" text-white mx-5"
+						>
 							<FontAwesomeIcon icon={faEnvelope} />
 						</a>
 
-						<abbr title="076 661 3279" className="mx-5">
+						<abbr title="073 694 3166" className="mx-5">
 							<FontAwesomeIcon icon={faMobile} />
 						</abbr>
 
 						<a
-							href="https://www.facebook.com/Sbwl-Data-100692328403977/"
+							href="https://www.facebook.com/Luchume-caterers-582147962468774"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-white mx-5"
