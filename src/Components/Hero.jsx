@@ -25,7 +25,7 @@ const Hero = () => {
 								For the love of food
 							</legend>
 							<h1 className="display-1 text-white main-heading font-weight-bold px-0">
-								Luchume Caterers
+								LUCHUME CATERERS
 							</h1>
 							<Link to="/#about">
 								<Button
