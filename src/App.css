@@ -91,8 +91,8 @@ body,
 	/* background: rgba(0, 0, 0, 0.8) !important; */
 	background: linear-gradient(
 		90deg,
-		rgba(144, 34, 195, 0.7),
-		rgba(253, 45, 175, 0.7)
+		rgba(65, 65, 65, 0.7),
+		rgba(255, 252, 50, 0.7)
 	) !important;
 }
 
