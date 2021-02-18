@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
 * {
 	font-family: "EB Garamond", serif;
@@ -24,6 +25,9 @@ body,
 }
 .footer {
 	flex-shrink: 0;
+}
+.main-heading {
+	font-family: "Audiowide", cursive;
 }
 .title,
 .title-2 {
