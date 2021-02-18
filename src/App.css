@@ -92,12 +92,12 @@ body,
 	left: 0;
 }
 .hero-content {
-	/* background: rgba(0, 0, 0, 0.8) !important; */
-	background: linear-gradient(
+	background: rgba(0, 0, 0, 0.8) !important;
+	/* background: linear-gradient(
 		90deg,
 		rgba(65, 65, 65, 0.7),
 		rgba(255, 252, 50, 0.7)
-	) !important;
+	) !important; */
 }
 
 @keyframes App-logo-spin {
