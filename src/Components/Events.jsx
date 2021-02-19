@@ -3,7 +3,7 @@ import John from "../Images/happy.jpg";
 
 const Events = () => {
 	return (
-		<div className="p-5 text-center m-5" id="event">
+		<div className="p-5 text-center m-5" id="service">
 			<p class="display-4 text-center my-5 font-weight-bold title">
 				<text className="px-lg-5">Whats the occassion?</text>
 			</p>

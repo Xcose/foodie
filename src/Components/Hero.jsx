@@ -21,7 +21,7 @@ const Hero = () => {
 				<div className="h-100 d-flex align-items-center justify-content-center justify-content-lg-center px-5 mx-5">
 					<div className="">
 						<fieldset className="p-5">
-							<legend className="subHeading text-white m-0 p-0">
+							<legend className="subHeading h3 text-white m-0 p-0">
 								For the love of food
 							</legend>
 							<h1 className="display-1 main-heading font-weight-bold px-0">

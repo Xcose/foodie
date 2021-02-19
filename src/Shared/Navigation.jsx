@@ -52,7 +52,7 @@ const Navigation = ({ home }) => {
 							style={{ width: "8%" }}
 							className="m-0"
 						/> */}
-					<b>Foodie</b>
+					<b>Luchume</b>
 				</NavbarBrand>
 			</Link>
 			<NavbarToggler className="text-white" onClick={toggle} color="light" />
@@ -63,19 +63,19 @@ const Navigation = ({ home }) => {
 							<NavLink className={classText}>About</NavLink>
 						</NavItem>
 					</HashLink>
-					<HashLink to="/gallery/#gallery">
-						<NavItem>
-							<NavLink className={classText}>Gallery</NavLink>
-						</NavItem>
-					</HashLink>
 					<HashLink to="/#team">
 						<NavItem>
 							<NavLink className={classText}>Team</NavLink>
 						</NavItem>
 					</HashLink>
-					<HashLink to="/#event">
+					<HashLink to="/#service">
 						<NavItem>
-							<NavLink className={classText}>Events</NavLink>
+							<NavLink className={classText}>Services</NavLink>
+						</NavItem>
+					</HashLink>
+					<HashLink to="/gallery/#gallery">
+						<NavItem>
+							<NavLink className={classText}>Gallery</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/contact">

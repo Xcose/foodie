@@ -33,13 +33,11 @@ function Footer() {
 				</div>
 				<div className="col-12 col-lg-4 m-0">
 					<div className="mt-4 text-center">
-						<Link to="/gallery">
-							<b className="font-weight-bold text-white mx-2 pr-3">Gallery</b>
+						<Link to="/gallery" className="text-decoration-none">
+							<b className="font-weight-bold text-white pr-3">Gallery</b>
 						</Link>
-						<Link to="/contact">
-							<b className="font-weight-bold text-white mx-2 pr-3">
-								Contact Us
-							</b>
+						<Link to="/contact" className="text-decoration-none">
+							<b className="font-weight-bold text-white pr-3">Contact Us</b>
 						</Link>
 					</div>
 				</div>

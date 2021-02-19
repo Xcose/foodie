@@ -30,6 +30,9 @@ body,
 	font-family: "Audiowide", cursive;
 	color: yellow !important;
 }
+.subHeading {
+	letter-spacing: 3px;
+}
 .title,
 .title-2 {
 	font-family: "Open Sans", sans-serif !important;
