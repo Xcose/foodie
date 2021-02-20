@@ -209,6 +209,7 @@ function ContactUs() {
 							className="btn-pebble text-main rounded-0"
 							disabled={isLoading}
 							color="dark"
+							block
 							outline
 						>
 							{isLoading ? <FontAwesomeIcon icon={faSpinner} spin /> : "Send"}

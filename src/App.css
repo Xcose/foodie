@@ -7,8 +7,9 @@
 	font-family: "EB Garamond", serif;
 }
 
-p {
-	font-family: "PT Sans", sans-serif;
+p,
+.blockquote {
+	font-family: "PT Sans", sans-serif !important;
 }
 
 html,
@@ -102,6 +103,39 @@ body,
 		rgba(65, 65, 65, 0.7),
 		rgba(255, 252, 50, 0.7)
 	) !important; */
+}
+.grid {
+	--gap: 1em;
+	--columns: 3;
+	max-width: 90rem;
+	margin: 1em auto;
+	display: column;
+	columns: var(--columns);
+	gap: var(--gap);
+}
+
+.grid > * {
+	break-inside: avoid;
+	margin-bottom: var(--gap);
+}
+
+@supports (grid-template-rows: masonary) {
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(var(--columns), 1fr);
+		grid-template-rows: masonary;
+		grid-auto-flow: dense;
+	}
+}
+
+.grid {
+	margin-bottom: 0em;
+}
+.last {
+	grid-column: span 2;
+}
+.dropdown-item:hover {
+	color: #6c757d !important;
 }
 
 @keyframes App-logo-spin {

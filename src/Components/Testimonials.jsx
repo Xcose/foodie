@@ -16,7 +16,6 @@ import Jane from "../Images/woman.jpg";
 
 function Testimonials() {
 	const settings = {
-		dots: true,
 		infinite: false,
 		speed: 500,
 		slidesToShow: 3,
@@ -25,7 +24,6 @@ function Testimonials() {
 	};
 
 	const settingsSmall = {
-		dots: true,
 		infinite: false,
 		speed: 500,
 		slidesToShow: 1,
@@ -35,20 +33,15 @@ function Testimonials() {
 
 	return (
 		<div className="p-5 text-center" id="testimonal">
-			<p class="display-4 text-center my-5 font-weight-bold title">
+			{/* <p class="display-4 text-center my-5 font-weight-bold title">
 				<text className="px-lg-5">Who have we worked with?</text>
-			</p>
+			</p> */}
 			<div class="d-none d-lg-block">
 				<Slider {...settings}>
 					<div className="out">
 						<Card className="my-5 m-lg-5 bg-transparent border-0">
-							<CardImg
-								src={Jane}
-								alt="Generic placeholder image"
-								className="w-100 rounded-0"
-							/>
 							<CardBody>
-								<CardText className="font-italic font-weight-light text-justify">
+								<CardText className="font-italic text-justify">
 									<blockquote class="blockquote h5">
 										<p class="mb-0">
 											"Cras sit amet nibh libero, in gravida nulla. Nulla vel
@@ -57,7 +50,9 @@ function Testimonials() {
 											Fusce condimentum nunc ac nisi vulputate fringilla. Donec
 											lacinia congue felis in faucibus."
 										</p>
-										<footer class="blockquote-footer">Jane Doe</footer>
+										<footer class="blockquote-footer mt-2 text-center">
+											Jane Doe
+										</footer>
 									</blockquote>
 								</CardText>
 							</CardBody>
@@ -65,11 +60,6 @@ function Testimonials() {
 					</div>
 					<div className="out">
 						<Card className="my-5 m-lg-5 bg-transparent border-0">
-							<CardImg
-								src={John}
-								alt="Generic placeholder image"
-								className="w-100 rounded-0"
-							/>
 							<CardBody>
 								<CardText className="font-italic font-weight-light text-justify">
 									<blockquote class="blockquote h5">
@@ -80,7 +70,9 @@ function Testimonials() {
 											Fusce condimentum nunc ac nisi vulputate fringilla. Donec
 											lacinia congue felis in faucibus."
 										</p>
-										<footer class="blockquote-footer">Jane Doe</footer>
+										<footer class="blockquote-footer mt-2 text-center">
+											Jane Doe
+										</footer>
 									</blockquote>
 								</CardText>
 							</CardBody>
@@ -88,11 +80,6 @@ function Testimonials() {
 					</div>
 					<div className="out">
 						<Card className="my-5 m-lg-5 bg-transparent border-0">
-							<CardImg
-								src={Jane}
-								alt="Generic placeholder image"
-								className="w-100 rounded-0"
-							/>
 							<CardBody>
 								<CardText className="font-italic font-weight-light text-justify">
 									<blockquote class="blockquote h5">
@@ -103,7 +90,9 @@ function Testimonials() {
 											Fusce condimentum nunc ac nisi vulputate fringilla. Donec
 											lacinia congue felis in faucibus."
 										</p>
-										<footer class="blockquote-footer">Jane Doe</footer>
+										<footer class="blockquote-footer mt-2 text-center">
+											Jane Doe
+										</footer>
 									</blockquote>
 								</CardText>
 							</CardBody>
@@ -111,11 +100,6 @@ function Testimonials() {
 					</div>
 					<div className="out">
 						<Card className="my-5 m-lg-5 bg-transparent border-0">
-							<CardImg
-								src={John}
-								alt="Generic placeholder image"
-								className="w-100 rounded-0"
-							/>
 							<CardBody>
 								<CardText className="font-italic font-weight-light text-justify">
 									<blockquote class="blockquote h5">
@@ -126,7 +110,9 @@ function Testimonials() {
 											Fusce condimentum nunc ac nisi vulputate fringilla. Donec
 											lacinia congue felis in faucibus."
 										</p>
-										<footer class="blockquote-footer">Jane Doe</footer>
+										<footer class="blockquote-footer mt-2 text-center">
+											Jane Doe
+										</footer>
 									</blockquote>
 								</CardText>
 							</CardBody>
@@ -138,11 +124,6 @@ function Testimonials() {
 				<Slider {...settingsSmall}>
 					<div className="out">
 						<Card className="my-5 m-lg-5 bg-transparent border-0">
-							<CardImg
-								src={Jane}
-								alt="Generic placeholder image"
-								className="w-100 rounded-0"
-							/>
 							<CardBody>
 								<CardText className="font-italic font-weight-light text-justify">
 									<blockquote class="blockquote h5">
@@ -153,7 +134,9 @@ function Testimonials() {
 											Fusce condimentum nunc ac nisi vulputate fringilla. Donec
 											lacinia congue felis in faucibus."
 										</p>
-										<footer class="blockquote-footer">Jane Doe</footer>
+										<footer class="blockquote-footer mt-2 text-center">
+											Jane Doe
+										</footer>
 									</blockquote>
 								</CardText>
 							</CardBody>
@@ -161,11 +144,6 @@ function Testimonials() {
 					</div>
 					<div className="out">
 						<Card className="my-5 m-lg-5 bg-transparent border-0">
-							<CardImg
-								src={John}
-								alt="Generic placeholder image"
-								className="w-100 rounded-0"
-							/>
 							<CardBody>
 								<CardText className="font-italic font-weight-light text-justify">
 									<blockquote class="blockquote h5">
@@ -176,7 +154,9 @@ function Testimonials() {
 											Fusce condimentum nunc ac nisi vulputate fringilla. Donec
 											lacinia congue felis in faucibus."
 										</p>
-										<footer class="blockquote-footer">Jane Doe</footer>
+										<footer class="blockquote-footer mt-2 text-center">
+											Jane Doe
+										</footer>
 									</blockquote>
 								</CardText>
 							</CardBody>
@@ -184,11 +164,6 @@ function Testimonials() {
 					</div>
 					<div className="out">
 						<Card className="my-5 m-lg-5 bg-transparent border-0">
-							<CardImg
-								src={Jane}
-								alt="Generic placeholder image"
-								className="w-100 rounded-0"
-							/>
 							<CardBody>
 								<CardText className="font-italic font-weight-light text-justify">
 									<blockquote class="blockquote h5">
@@ -199,7 +174,9 @@ function Testimonials() {
 											Fusce condimentum nunc ac nisi vulputate fringilla. Donec
 											lacinia congue felis in faucibus."
 										</p>
-										<footer class="blockquote-footer">Jane Doe</footer>
+										<footer class="blockquote-footer mt-2 text-center">
+											Jane Doe
+										</footer>
 									</blockquote>
 								</CardText>
 							</CardBody>
@@ -207,11 +184,6 @@ function Testimonials() {
 					</div>
 					<div className="out">
 						<Card className="my-5 m-lg-5 bg-transparent border-0">
-							<CardImg
-								src={John}
-								alt="Generic placeholder image"
-								className="w-100 rounded-0"
-							/>
 							<CardBody>
 								<CardText className="font-italic font-weight-light text-justify">
 									<blockquote class="blockquote h5">
@@ -222,7 +194,9 @@ function Testimonials() {
 											Fusce condimentum nunc ac nisi vulputate fringilla. Donec
 											lacinia congue felis in faucibus."
 										</p>
-										<footer class="blockquote-footer">Jane Doe</footer>
+										<footer class="blockquote-footer mt-2 text-center">
+											Jane Doe
+										</footer>
 									</blockquote>
 								</CardText>
 							</CardBody>

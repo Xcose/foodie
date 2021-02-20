@@ -17,8 +17,8 @@ import { HashLink } from "react-router-hash-link";
 
 const Navigation = ({ home }) => {
 	const [isOpen, setIsOpen] = useState(false);
-	const classText = `font-weight-bold ${home ? "text-white" : ""}`;
 	const [isDark, setIsDark] = useState(false);
+	const classText = "font-weight-bold text-white";
 
 	const toggle = () => setIsOpen(!isOpen);
 
@@ -34,18 +34,14 @@ const Navigation = ({ home }) => {
 
 	return (
 		<Navbar
-			color={isDark ? "secondary" : "transparent"}
+			color={isDark || !home ? "secondary" : "transparent"}
 			light
 			expand="md"
 			fixed="top"
-			className="px-5"
+			className="px-5 "
 		>
 			<Link to="/">
-				<NavbarBrand
-					className={`font-weight-bold d-flex align-items-center d-none d-lg-flex ${
-						home ? "text-white" : "text-main"
-					}`}
-				>
+				<NavbarBrand className="font-weight-bold d-flex align-items-center d-none d-lg-flex text-white">
 					{/* <img
 							src={Logo}
 							alt="SBWL Data Deals"
@@ -58,21 +54,37 @@ const Navigation = ({ home }) => {
 			<NavbarToggler className="text-white" onClick={toggle} color="light" />
 			<Collapse isOpen={isOpen} navbar>
 				<Nav className="ml-auto" navbar>
-					<HashLink to="/#about">
+					<UncontrolledDropdown nav inNavbar>
+						<DropdownToggle nav caret className={classText}>
+							About
+						</DropdownToggle>
+						<DropdownMenu right className="bg-secondary">
+							<HashLink to="/#about">
+								<DropdownItem className={classText}>About</DropdownItem>
+							</HashLink>
+							<HashLink to="/#team">
+								<DropdownItem className={classText}>Team</DropdownItem>
+							</HashLink>
+							<HashLink to="/#service">
+								<DropdownItem className={classText}>Services</DropdownItem>
+							</HashLink>
+						</DropdownMenu>
+					</UncontrolledDropdown>
+					{/* <HashLink to="/#about">
 						<NavItem>
 							<NavLink className={classText}>About</NavLink>
 						</NavItem>
-					</HashLink>
-					<HashLink to="/#team">
+					</HashLink> */}
+					{/* <HashLink to="/#team">
 						<NavItem>
 							<NavLink className={classText}>Team</NavLink>
 						</NavItem>
-					</HashLink>
-					<HashLink to="/#service">
+					</HashLink> */}
+					{/* <HashLink to="/#service">
 						<NavItem>
 							<NavLink className={classText}>Services</NavLink>
 						</NavItem>
-					</HashLink>
+					</HashLink> */}
 					<HashLink to="/gallery/#gallery">
 						<NavItem>
 							<NavLink className={classText}>Gallery</NavLink>
