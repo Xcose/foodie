@@ -14,6 +14,7 @@ import {
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import Logo from "../Images/Lchume_logo.png";
 
 const Navigation = ({ home }) => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -46,13 +47,13 @@ const Navigation = ({ home }) => {
 						home && !isDark ? "text-white" : ""
 					}`}
 				>
-					{/* <img
-							src={Logo}
-							alt="SBWL Data Deals"
-							style={{ width: "8%" }}
-							className="m-0"
-						/> */}
-					<b>Luchume</b>
+					<img
+						src={Logo}
+						alt="Luchume Caterers"
+						style={{ width: "10%" }}
+						className="mr-2"
+					/>
+					<b className="d-none d-lg-block">Luchume</b>
 				</NavbarBrand>
 			</Link>
 			<NavbarToggler className="text-white" onClick={toggle} color="light" />
@@ -62,7 +63,7 @@ const Navigation = ({ home }) => {
 						<DropdownToggle nav caret className={classText}>
 							About
 						</DropdownToggle>
-						<DropdownMenu right className="bg-secondary">
+						<DropdownMenu right className="bg-light">
 							<HashLink to="/#about">
 								<DropdownItem className={classText}>About</DropdownItem>
 							</HashLink>

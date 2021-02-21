@@ -50,82 +50,82 @@ const Gallery = () => {
 			</div>
 			<div className="grid w-100" id="gallery">
 				<div>
-					<img src={img2} alt="" className="w-100" />
+					<img src={img2} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img3} alt="" className="w-100" />
+					<img src={img3} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img4} alt="" className="w-100" />
+					<img src={img4} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img5} alt="" className="w-100" />
+					<img src={img5} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img6} alt="" className="w-100" />
+					<img src={img6} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img7} alt="" className="w-100" />
+					<img src={img7} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img8} alt="" className="w-100" />
+					<img src={img8} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img9} alt="" className="w-100" />
+					<img src={img9} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img10} alt="" className="w-100" />
+					<img src={img10} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img11} alt="" className="w-100" />
+					<img src={img11} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img12} alt="" className="w-100" />
+					<img src={img12} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img13} alt="" className="w-100" />
+					<img src={img13} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img14} alt="" className="w-100" />
+					<img src={img14} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img15} alt="" className="w-100" />
+					<img src={img15} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img16} alt="" className="w-100" />
+					<img src={img16} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img17} alt="" className="w-100" />
+					<img src={img17} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img18} alt="" className="w-100" />
+					<img src={img18} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img19} alt="" className="w-100" />
+					<img src={img19} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img20} alt="" className="w-100" />
+					<img src={img20} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img21} alt="" className="w-100" />
+					<img src={img21} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img22} alt="" className="w-100" />
+					<img src={img22} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img23} alt="" className="w-100" />
+					<img src={img23} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img24} alt="" className="w-100" />
+					<img src={img24} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img25} alt="" className="w-100" />
+					<img src={img25} alt="" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img26} alt="" className="w-100" />
+					<img src={img26} alt="" className="w-100 rounded" />
 				</div>
 				<div className="last">
-					<img src={img1} alt="" className="w-100" />
+					<img src={img1} alt="" className="w-100 rounded" />
 				</div>
 			</div>
 		</div>
