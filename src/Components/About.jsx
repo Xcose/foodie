@@ -37,7 +37,7 @@ const About = () => {
 							}}
 							scrolling="no"
 							frameborder="0"
-							allowfullscreen="faslse"
+							allowfullscreen="false"
 							allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
 							allowFullScreen="false"
 						></iframe>
