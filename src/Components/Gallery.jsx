@@ -48,7 +48,7 @@ const Gallery = () => {
 					<text className="px-lg-5">Have a look at our magic?</text>
 				</p>
 			</div>
-			<div className="grid w-100" id="gallery">
+			<div className="grid w-100 p-3" id="gallery">
 				<div>
 					<img src={img2} alt="" className="w-100 rounded" />
 				</div>
