@@ -41,10 +41,13 @@ import img26 from "../Images/16.jpg";
 
 const Gallery = () => {
 	return (
-		<div className="pt-5 mt-2">
-			<p class="display-4 text-center my-5 font-weight-bold title">
-				<text className="px-lg-5">Have a look at our magic?</text>
-			</p>
+		<div className="w-100">
+			<div className="my-5 py-5">
+				<p className="text-center h3 text-muted">Gallery</p>
+				<p class="display-4 text-center font-weight-bold title">
+					<text className="px-lg-5">Have a look at our magic?</text>
+				</p>
+			</div>
 			<div className="grid w-100" id="gallery">
 				<div>
 					<img src={img2} alt="" className="w-100" />

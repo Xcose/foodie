@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
 * {
-	font-family: "EB Garamond", serif;
+	font-family: "EB Garamond", serif !important;
 }
 
 p,
@@ -28,11 +28,14 @@ body,
 	flex-shrink: 0;
 }
 .main-heading {
-	font-family: "Audiowide", cursive;
+	font-family: "Audiowide", cursive !important;
 	color: yellow !important;
+	font-size: 5.714vw !important;
 }
 .subHeading {
-	letter-spacing: 3px;
+	font-family: "EB Garamond", serif !important;
+	letter-spacing: 3px !important;
+	font-size: 3vw !important;
 }
 .title,
 .title-2 {
@@ -136,6 +139,9 @@ body,
 }
 .dropdown-item:hover {
 	color: #6c757d !important;
+}
+.navbar-toggler-icon {
+	color: white !important;
 }
 
 @keyframes App-logo-spin {

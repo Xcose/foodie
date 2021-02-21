@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import { FormGroup, Input, Button, Tooltip, Label } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faMobile,
-	faEnvelope,
-	faSpinner,
-} from "@fortawesome/free-solid-svg-icons";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 // import { SuccessMessage, ErrorMessage } from "../Shared/Notifications";
 // import Validation from "../../Validation/ContactUsValidation";
 // import emailjs from "emailjs-com";

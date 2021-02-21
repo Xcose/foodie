@@ -36,9 +36,9 @@ const Navigation = ({ home }) => {
 		<Navbar
 			color={isDark || !home ? "secondary" : "transparent"}
 			light
-			expand="md"
+			expand="lg"
 			fixed="top"
-			className="px-5 "
+			className="w-100 px-5"
 		>
 			<Link to="/">
 				<NavbarBrand className="font-weight-bold d-flex align-items-center d-none d-lg-flex text-white">
@@ -53,7 +53,7 @@ const Navigation = ({ home }) => {
 			</Link>
 			<NavbarToggler className="text-white" onClick={toggle} color="light" />
 			<Collapse isOpen={isOpen} navbar>
-				<Nav className="ml-auto" navbar>
+				<Nav className="ml-auto text-center" navbar>
 					<UncontrolledDropdown nav inNavbar>
 						<DropdownToggle nav caret className={classText}>
 							About
