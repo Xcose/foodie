@@ -19,8 +19,21 @@ const About = () => {
 							consequuntur assumenda velit in mollitia?
 						</p>
 					</Col>
-					<Col sm="12" lg="4" className="event-img">
-						<img src={John} alt="" className="w-100" />
+					<Col sm="12" lg="4">
+						<iframe
+							src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F582147962468774%2Fvideos%2F2934658313309125%2F&show_text=false&width=267"
+							width="267"
+							height="476"
+							style={{
+								border: "none",
+								overflow: "hidden",
+							}}
+							scrolling="no"
+							frameborder="0"
+							allowfullscreen="true"
+							allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+							allowFullScreen="true"
+						></iframe>
 					</Col>
 				</Row>
 			</div>
