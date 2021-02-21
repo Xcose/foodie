@@ -116,12 +116,15 @@ body,
 	columns: var(--columns);
 	gap: var(--gap);
 }
-
+@media (max-width: 540px) {
+	.grid {
+		--columns: 1;
+	}
+}
 .grid > * {
 	break-inside: avoid;
 	margin-bottom: var(--gap);
 }
-
 @supports (grid-template-rows: masonary) {
 	.grid {
 		display: grid;
