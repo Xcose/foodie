@@ -18,7 +18,7 @@ import { HashLink } from "react-router-hash-link";
 const Navigation = ({ home }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const [isDark, setIsDark] = useState(false);
-	const classText = "font-weight-bold text-white";
+	const classText = `font-weight-bold ${home && !isDark ? "text-white" : ""}`;
 
 	const toggle = () => setIsOpen(!isOpen);
 
@@ -34,14 +34,18 @@ const Navigation = ({ home }) => {
 
 	return (
 		<Navbar
-			color={isDark || !home ? "secondary" : "transparent"}
+			color={isDark || !home ? "light" : "transparent"}
 			light
 			expand="lg"
 			fixed="top"
 			className="w-100 px-5"
 		>
 			<Link to="/">
-				<NavbarBrand className="font-weight-bold d-flex align-items-center d-none d-lg-flex text-white">
+				<NavbarBrand
+					className={`font-weight-bold d-flex align-items-center d-none d-lg-flex ${
+						home && !isDark ? "text-white" : ""
+					}`}
+				>
 					{/* <img
 							src={Logo}
 							alt="SBWL Data Deals"
