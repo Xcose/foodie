@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col } from "reactstrap";
+import ReactPlayer from "react-player";
 import John from "../Images/happy.jpg";
 
 const About = () => {
@@ -20,6 +21,12 @@ const About = () => {
 						</p>
 					</Col>
 					<Col sm="12" lg="4">
+						{/* <ReactPlayer
+							width="267"
+							height="476"
+							url="https://www.facebook.com/582147962468774/videos/2934658313309125"
+							controls
+						/> */}
 						<iframe
 							src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F582147962468774%2Fvideos%2F2934658313309125%2F&show_text=false&width=267"
 							width="267"
@@ -30,9 +37,9 @@ const About = () => {
 							}}
 							scrolling="no"
 							frameborder="0"
-							allowfullscreen="true"
+							allowfullscreen="faslse"
 							allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-							allowFullScreen="true"
+							allowFullScreen="false"
 						></iframe>
 					</Col>
 				</Row>
