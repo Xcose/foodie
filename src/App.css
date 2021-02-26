@@ -38,7 +38,8 @@ body,
 	font-size: 3vw !important;
 }
 .title,
-.title-2 {
+.title-2,
+.sub-title {
 	font-family: "Open Sans", sans-serif !important;
 	position: relative;
 }
@@ -55,18 +56,20 @@ body,
 .title-2:before {
 	content: "";
 	position: absolute;
-	width: 80%;
+	width: 50%;
 	height: 1px;
-	background: red !important;
-	top: 50%;
-	left: 10%;
+	background: goldenrod !important;
+	bottom: -30%;
+	left: 0%;
 	z-index: -999999;
 }
 .title > text {
 	background-color: white;
+	word-spacing: 10px;
 }
 .title-2 > text {
-	background-color: #343a40;
+	background-color: white;
+	/* color: gray; */
 }
 .scroll-up-btn {
 	opacity: 0;
@@ -109,7 +112,7 @@ body,
 }
 .grid {
 	--gap: 1em;
-	--columns: 3;
+	--columns: 4;
 	max-width: 90rem;
 	margin: 1em auto;
 	display: column;
@@ -137,8 +140,8 @@ body,
 .grid {
 	margin-bottom: 0em;
 }
-.last {
-	grid-column: span 2;
+.grid > .last {
+	grid-column: span 4;
 }
 .dropdown-item:hover {
 	color: #6c757d !important;
@@ -146,7 +149,37 @@ body,
 .navbar-toggler-icon {
 	color: white !important;
 }
-
+.list {
+	list-style-type: none;
+}
+.list > li {
+	margin-top: 2rem;
+	position: relative;
+}
+.list > li::after {
+	content: "*";
+	position: absolute;
+	width: 30%;
+	/* height: 1px; */
+	/* background: goldenrod !important; */
+	color: goldenrod;
+	bottom: -100%;
+	left: 35%;
+	z-index: -999999;
+}
+.list > li:last-child::after {
+	content: "";
+	position: absolute;
+}
+.page-footer {
+	background-color: rgb(207, 207, 207) !important;
+}
+.text-gold {
+	color: goldenrod !important;
+}
+.bg-gold {
+	background-color: goldenrod !important;
+}
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);

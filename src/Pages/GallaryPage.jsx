@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Gallery from "../Components/Gallery";
 import Testimonials from "../Components/Testimonials";
 import Navigation from "../Shared/Navigation";
-import BGI from "../Images/businessman.jpg";
+import BGI from "../Images/4.jpg";
 
 const GallaryPage = () => {
 	return (

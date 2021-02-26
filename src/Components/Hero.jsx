@@ -15,6 +15,7 @@ const Hero = () => {
 				backgroundSize: "cover",
 			}}
 			className="w-100 rounded-0 p-0 bg-dark"
+			id="home"
 		>
 			<div className="text-center h-100 hero-content w-100">
 				<div className="h-100 d-flex align-items-center justify-content-center w-100">

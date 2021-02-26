@@ -17,7 +17,7 @@ import BGI from "../Images/businessman.jpg";
 const Teams = () => {
 	return (
 		<div
-			className="p-5 m-5 text-center text-white d-flex justify-content-center align-items-center"
+			className="m-5 text-center text-white d-flex justify-content-center align-items-center"
 			id="team"
 			style={{
 				minHeight: "500px",
@@ -25,7 +25,7 @@ const Teams = () => {
 				backgroundSize: "cover",
 			}}
 		>
-			<div>
+			<div className="h-100 w-100">
 				<p class="display-4 text-center my-5 font-weight-bold">
 					<text className="px-lg-5">Meet the team behind all the magic</text>
 				</p>

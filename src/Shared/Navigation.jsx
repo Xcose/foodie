@@ -39,7 +39,7 @@ const Navigation = ({ home }) => {
 			light
 			expand="lg"
 			fixed="top"
-			className="w-100 px-5"
+			className="w-100 px-lg-5"
 		>
 			<Link to="/">
 				<NavbarBrand
@@ -59,11 +59,26 @@ const Navigation = ({ home }) => {
 			<NavbarToggler className="text-white" onClick={toggle} color="light" />
 			<Collapse isOpen={isOpen} navbar>
 				<Nav className="ml-auto text-center" navbar>
-					<UncontrolledDropdown nav inNavbar>
+					<HashLink to="/#home">
+						<NavItem>
+							<NavLink className={classText}>Home</NavLink>
+						</NavItem>
+					</HashLink>
+					<HashLink to="/#about">
+						<NavItem>
+							<NavLink className={classText}>About</NavLink>
+						</NavItem>
+					</HashLink>
+					{/* <UncontrolledDropdown nav inNavbar>
 						<DropdownToggle nav caret className={classText}>
 							About
 						</DropdownToggle>
-						<DropdownMenu right className="bg-light">
+						<DropdownMenu
+							right
+							className={`text-center border-0 ${
+								isDark || !home ? "bg-light" : "bg-transparent"
+							}`}
+						>
 							<HashLink to="/#about">
 								<DropdownItem className={classText}>About</DropdownItem>
 							</HashLink>
@@ -74,28 +89,24 @@ const Navigation = ({ home }) => {
 								<DropdownItem className={classText}>Services</DropdownItem>
 							</HashLink>
 						</DropdownMenu>
-					</UncontrolledDropdown>
-					{/* <HashLink to="/#about">
-						<NavItem>
-							<NavLink className={classText}>About</NavLink>
-						</NavItem>
-					</HashLink> */}
-					{/* <HashLink to="/#team">
+					</UncontrolledDropdown> */}
+
+					<HashLink to="/#team">
 						<NavItem>
 							<NavLink className={classText}>Team</NavLink>
 						</NavItem>
-					</HashLink> */}
-					{/* <HashLink to="/#service">
+					</HashLink>
+					<HashLink to="/#event">
 						<NavItem>
-							<NavLink className={classText}>Services</NavLink>
+							<NavLink className={classText}>Events</NavLink>
 						</NavItem>
-					</HashLink> */}
+					</HashLink>
 					<HashLink to="/gallery/#gallery">
 						<NavItem>
 							<NavLink className={classText}>Gallery</NavLink>
 						</NavItem>
 					</HashLink>
-					<HashLink to="/contact">
+					<HashLink to="/#contact">
 						<NavItem>
 							<NavLink className={classText}>Contact Us</NavLink>
 						</NavItem>

@@ -67,15 +67,12 @@ function ContactUs() {
 	};
 
 	return (
-		<div className="pt-5 text-center">
-			{/* <p className="display-4 my-5 font-weight-bold title">
-				<text className="px-lg-5">GET IN TOUCH</text>
-			</p> */}
+		<div className="pt-5 text-center" id="contact">
 			<div className="row justify-content-around">
 				<div className="col-12 col-lg-5 d-flex justify-content-center align-items-center">
 					<div className="text-lg-left text-center h4 h-100">
-						<p className="display-4 my-5 font-weight-bold">
-							<text className="py-lg-5">GET IN TOUCH</text>
+						<p className="display-4 my-5 font-weight-bold title text-center">
+							<text className="p-lg-4">GET IN TOUCH</text>
 						</p>
 						<p className="lead text-muted">
 							We would like to hear from you. Please fill out the form or use
@@ -92,7 +89,7 @@ function ContactUs() {
 							6210
 							<br />
 							<br />
-							(+27) 73 694 3166
+							(073) 694 3166
 						</address>
 						<p className="h5">
 							<a href="mailto:ntembekomonde@gmail.com" className="text-reset">
@@ -202,7 +199,7 @@ function ContactUs() {
 							onClick={() => {
 								// Validate();
 							}}
-							className="btn-pebble text-main rounded-0"
+							className="rounded-0"
 							disabled={isLoading}
 							color="dark"
 							block

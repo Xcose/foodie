@@ -1,63 +1,37 @@
 import React, { Component } from "react";
 import John from "../Images/happy.jpg";
+import { Row, Col } from "reactstrap";
+import IMG from "../Images/10.jpg";
 
 const Events = () => {
 	return (
-		<div className="py-5 text-center m-5" id="service">
+		<div className="py-5 text-center my-5" id="event">
 			<p class="display-4 text-center my-5 font-weight-bold title">
-				<text className="px-lg-5">Whats the occassion?</text>
+				<text className="px-lg-5">WHAT'S THE OCCASSION?</text>
 			</p>
 			<div className="my-5">
-				<div className="row mt-5 mx-lg-5">
-					<div className="col-lg-4 event-img">
-						<img src={John} className="w-100" alt="" />
-					</div>
-					<div className="col-lg-8 text-left">
-						<p className="h2 mt-5">Weddings</p>
-						<p className="text-muted lead">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-							repellat vitae possimus accusantium ad exercitationem quisquam?
-							Explicabo officiis, ex, aut illum alias magnam dolorum ipsum earum
-							architecto, possimus saepe eaque. Voluptate modi numquam in beatae
-							aspernatur, asperiores ad enim maxime deleniti illo quasi itaque
-							pariatur corrupti doloribus animi autem iure harum molestiae,
-							optio reprehenderit, quod ipsam hic debitis quia. Inventore!
-						</p>
-					</div>
-				</div>
-				<div className="row mt-5 mx-lg-5">
-					<div className="col-lg-8 text-left order-last order-lg-first">
-						<p className="h2 mt-5">Corprate Events</p>
-						<p className="text-muted lead">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-							repellat vitae possimus accusantium ad exercitationem quisquam?
-							Explicabo officiis, ex, aut illum alias magnam dolorum ipsum earum
-							architecto, possimus saepe eaque. Voluptate modi numquam in beatae
-							aspernatur, asperiores ad enim maxime deleniti illo quasi itaque
-							pariatur corrupti doloribus animi autem iure harum molestiae,
-							optio reprehenderit, quod ipsam hic debitis quia. Inventore!
-						</p>
-					</div>
-					<div className="col-lg-4 event-img order-first order-lg-last">
-						<img src={John} className="w-100" alt="" />
-					</div>
-				</div>
-				<div className="row mt-5 mx-lg-5">
-					<div className="col-lg-4 event-img">
-						<img src={John} className="w-100" alt="" />
-					</div>
-					<div className="col-lg-8 text-left">
-						<p className="h2 mt-5">Traditional Events</p>
-						<p className="text-muted lead">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-							repellat vitae possimus accusantium ad exercitationem quisquam?
-							Explicabo officiis, ex, aut illum alias magnam dolorum ipsum earum
-							architecto, possimus saepe eaque. Voluptate modi numquam in beatae
-							aspernatur, asperiores ad enim maxime deleniti illo quasi itaque
-							pariatur corrupti doloribus animi autem iure harum molestiae,
-							optio reprehenderit, quod ipsam hic debitis quia. Inventore!
-						</p>
-					</div>
+				<div className="text-center my-5 text-muted">
+					<Row className="justify-content-center my-5">
+						<Col sm="12" lg="4">
+							<ul className="list">
+								<li className="h2">Corporate Catering</li>
+								<li className="h2">Private Catering</li>
+								<li className="h2">Weddings</li>
+								<li className="h2">Birthdays</li>
+								<li className="h2">Anniversaries</li>
+								<li className="h2">Picnics</li>
+							</ul>
+						</Col>
+						<Col sm="12" lg="4">
+							<ul className="list">
+								<li className="h2">Platters</li>
+								<li className="h2">Cakes</li>
+								<li className="h2">Dessert Boxes</li>
+								<li className="h2">Packed Meals</li>
+								<li className="h2">Buffet</li>
+							</ul>
+						</Col>
+					</Row>
 				</div>
 			</div>
 		</div>

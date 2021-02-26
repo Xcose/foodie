@@ -12,7 +12,9 @@ const About = () => {
 			<div className="lead my-5">
 				<Row className="justify-content-around my-5">
 					<Col sm="12" lg="8" className="px-lg-5 text-left">
-						<p className="h2 mt-5">Let's help you make those memories</p>
+						<p className="h2 my-4 title-2">
+							Let's help you make those memories
+						</p>
 						<p className="text-sm-justify text-muted">
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 							Reiciendis dolores corporis modi, est illo nesciunt quod quo ullam

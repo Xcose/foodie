@@ -37,15 +37,17 @@ import img22 from "../Images/22.jpg";
 import img23 from "../Images/23.jpg";
 import img24 from "../Images/24.jpg";
 import img25 from "../Images/25.jpg";
-import img26 from "../Images/16.jpg";
+import img26 from "../Images/26.jpg";
 
 const Gallery = () => {
 	return (
 		<div className="w-100">
 			<div className="my-5 py-5">
-				<p className="text-center h3 text-muted">Gallery</p>
 				<p class="display-4 text-center font-weight-bold title">
-					<text className="px-lg-5">Have a look at our magic?</text>
+					<text className="px-lg-5">GALLERY</text>
+				</p>
+				<p className="text-center h3 text-muted sub-title">
+					Have a look at our magic?
 				</p>
 			</div>
 			<div className="grid w-100 p-3" id="gallery">
@@ -128,6 +130,7 @@ const Gallery = () => {
 					<img src={img1} alt="" className="w-100 rounded" />
 				</div>
 			</div>
+			{/* <p className="title my-5"></p> */}
 		</div>
 	);
 };

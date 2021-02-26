@@ -6,13 +6,13 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function Footer() {
 	return (
-		<footer className="page-footer w-100 font-small bg-secondary text-white">
+		<footer className="page-footer w-100 font-small h5 text-secondary">
 			<div className="row pb-4 m-0">
 				<div className="col-12 col-lg-4">
 					<div className="mt-4 text-center">
 						<a
 							href="mailto:ntembekomonde@gmail.com"
-							className=" text-white mx-5"
+							className="mx-5 text-secondary"
 						>
 							<FontAwesomeIcon icon={faEnvelope} />
 						</a>
@@ -25,7 +25,7 @@ function Footer() {
 							href="https://www.facebook.com/Luchume-caterers-582147962468774"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="text-white mx-5"
+							className="mx-5 text-secondary"
 						>
 							<FontAwesomeIcon icon={faFacebook} />
 						</a>
@@ -34,16 +34,16 @@ function Footer() {
 				<div className="col-12 col-lg-4 m-0">
 					<div className="mt-4 text-center">
 						<Link to="/gallery" className="text-decoration-none">
-							<b className="font-weight-bold text-white pr-3">Gallery</b>
+							<b className="font-weight-bold text-secondary pr-3">Gallery</b>
 						</Link>
 						<Link to="/contact" className="text-decoration-none">
-							<b className="font-weight-bold text-white pr-3">Contact Us</b>
+							<b className="font-weight-bold text-secondary pr-3">Contact Us</b>
 						</Link>
 					</div>
 				</div>
 				<div className="col-12 col-lg-4 text-center">
 					<div className="font-weight-bold mt-4 text-center">
-						Foodie © 2021 Copyright
+						Luchume © 2021 Copyright
 					</div>
 				</div>
 			</div>
