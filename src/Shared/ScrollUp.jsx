@@ -19,10 +19,13 @@ const ScrollUp = () => {
 	return (
 		<Button
 			style={{ position: "fixed", bottom: 100, right: 20, zindex: 999999 }}
-			className={`rounded-circle scroll-up-btn ${isVisible ? "active" : ""}`}
+			className={`rounded-circle scroll-up-btn call-to-action bg-transparent ${
+				isVisible ? "active" : ""
+			}`}
 			onClick={() => {
 				window.scroll({ top: 0, behavior: "smooth" });
 			}}
+			outline
 		>
 			<FontAwesomeIcon icon={faArrowUp} />
 		</Button>

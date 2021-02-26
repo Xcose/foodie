@@ -19,9 +19,18 @@ import Logo from "../Images/Lchume_logo.png";
 const Navigation = ({ home }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const [isDark, setIsDark] = useState(false);
+	const [activeTab, setActiveTab] = useState("home");
 	const classText = `font-weight-bold ${home && !isDark ? "text-white" : ""}`;
 
 	const toggle = () => setIsOpen(!isOpen);
+
+	const RemoveActiveFromTab = () => {
+		const tabs = document.getElementsByClassName("nav-link");
+
+		tabs.forEach((tab) => {
+			tab.classList.remove("active");
+		});
+	};
 
 	const changeNavbarBackground = () => {
 		if (window.scrollY >= window.outerHeight - 200) {
@@ -61,54 +70,74 @@ const Navigation = ({ home }) => {
 				<Nav className="ml-auto text-center" navbar>
 					<HashLink to="/#home">
 						<NavItem>
-							<NavLink className={classText}>Home</NavLink>
+							<NavLink
+								className={`${classText} ${activeTab == "home" && "active"}`}
+								onClick={() => {
+									setActiveTab("home");
+								}}
+							>
+								Home
+							</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/#about">
 						<NavItem>
-							<NavLink className={classText}>About</NavLink>
+							<NavLink
+								className={`${classText} ${activeTab == "about" && "active"}`}
+								onClick={() => {
+									setActiveTab("about");
+								}}
+							>
+								About
+							</NavLink>
 						</NavItem>
 					</HashLink>
-					{/* <UncontrolledDropdown nav inNavbar>
-						<DropdownToggle nav caret className={classText}>
-							About
-						</DropdownToggle>
-						<DropdownMenu
-							right
-							className={`text-center border-0 ${
-								isDark || !home ? "bg-light" : "bg-transparent"
-							}`}
-						>
-							<HashLink to="/#about">
-								<DropdownItem className={classText}>About</DropdownItem>
-							</HashLink>
-							<HashLink to="/#team">
-								<DropdownItem className={classText}>Team</DropdownItem>
-							</HashLink>
-							<HashLink to="/#service">
-								<DropdownItem className={classText}>Services</DropdownItem>
-							</HashLink>
-						</DropdownMenu>
-					</UncontrolledDropdown> */}
-
 					<HashLink to="/#team">
 						<NavItem>
-							<NavLink className={classText}>Team</NavLink>
+							<NavLink
+								className={`${classText} ${activeTab == "team" && "active"}`}
+								onClick={() => {
+									setActiveTab("team");
+								}}
+							>
+								Team
+							</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/#event">
 						<NavItem>
-							<NavLink className={classText}>Events</NavLink>
+							<NavLink
+								className={`${classText} ${activeTab == "event" && "active"}`}
+								onClick={() => {
+									setActiveTab("event");
+								}}
+							>
+								Events
+							</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/gallery/#gallery">
 						<NavItem>
-							<NavLink className={classText}>Gallery</NavLink>
+							<NavLink
+								className={`${classText} ${activeTab == "gallery" && "active"}`}
+								onClick={() => {
+									setActiveTab("gallery");
+								}}
+							>
+								Gallery
+							</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/#contact">
 						<NavItem>
-							<NavLink className={classText}>Contact Us</NavLink>
+							<NavLink
+								className={`${classText} ${activeTab == "contact" && "active"}`}
+								onClick={() => {
+									setActiveTab("contact");
+								}}
+							>
+								Contact Us
+							</NavLink>
 						</NavItem>
 					</HashLink>
 				</Nav>

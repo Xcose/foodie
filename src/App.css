@@ -172,9 +172,11 @@ body,
 	position: absolute;
 }
 .page-footer {
-	background-color: rgb(207, 207, 207) !important;
+	background-color: #f0f0f0 !important;
 }
-.text-gold {
+.text-gold,
+.nav-link:hover,
+.nav-link.active {
 	color: goldenrod !important;
 }
 .bg-gold {
