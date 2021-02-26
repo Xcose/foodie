@@ -180,6 +180,14 @@ body,
 .bg-gold {
 	background-color: goldenrod !important;
 }
+.call-to-action {
+	border-color: goldenrod !important;
+	color: goldenrod !important;
+}
+.call-to-action:hover {
+	background-color: goldenrod !important;
+	color: white !important;
+}
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);

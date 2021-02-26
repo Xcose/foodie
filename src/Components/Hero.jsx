@@ -29,34 +29,13 @@ const Hero = () => {
 						<Link to="/#about">
 							<Button
 								style={{ position: "absolute", bottom: "10%", left: "50%" }}
-								color="light"
-								className="text-center rounded-circle mt-2 mt-lg-5"
+								// color="light"
+								className="text-center rounded-circle mt-2 mt-lg-5 call-to-action"
 								outline
 							>
 								<FontAwesomeIcon icon={faArrowDown} />
 							</Button>
 						</Link>
-						{/* <h1 className="display-1 main-heading font-weight-bold px-0">
-							LUCHUME CATERERS
-						</h1> */}
-						{/* <fieldset className="p-5 w-100">
-							<legend className="subHeading h3 text-white m-0 p-0">
-								For the love of food
-							</legend>
-							<h1 className="display-1 main-heading font-weight-bold px-0">
-								LUCHUME CATERERS
-							</h1>
-							<Link to="/#about">
-								<Button
-									style={{ position: "absolute", bottom: "10%", left: "50%" }}
-									color="light"
-									className="text-center rounded-circle mt-2 mt-lg-5"
-									outline
-								>
-									<FontAwesomeIcon icon={faArrowDown} />
-								</Button>
-							</Link>
-						</fieldset> */}
 					</div>
 				</div>
 			</div>
