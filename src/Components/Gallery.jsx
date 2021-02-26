@@ -52,82 +52,82 @@ const Gallery = () => {
 			</div>
 			<div className="grid w-100 p-3" id="gallery">
 				<div>
-					<img src={img2} alt="" className="w-100 rounded" />
+					<img src={img2} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img3} alt="" className="w-100 rounded" />
+					<img src={img3} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img4} alt="" className="w-100 rounded" />
+					<img src={img4} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img5} alt="" className="w-100 rounded" />
+					<img src={img5} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img6} alt="" className="w-100 rounded" />
+					<img src={img6} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img7} alt="" className="w-100 rounded" />
+					<img src={img7} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img8} alt="" className="w-100 rounded" />
+					<img src={img8} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img9} alt="" className="w-100 rounded" />
+					<img src={img9} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img10} alt="" className="w-100 rounded" />
+					<img src={img10} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img11} alt="" className="w-100 rounded" />
+					<img src={img11} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img12} alt="" className="w-100 rounded" />
+					<img src={img12} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img13} alt="" className="w-100 rounded" />
+					<img src={img13} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img14} alt="" className="w-100 rounded" />
+					<img src={img14} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img15} alt="" className="w-100 rounded" />
+					<img src={img15} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img16} alt="" className="w-100 rounded" />
+					<img src={img16} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img17} alt="" className="w-100 rounded" />
+					<img src={img17} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img18} alt="" className="w-100 rounded" />
+					<img src={img18} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img19} alt="" className="w-100 rounded" />
+					<img src={img19} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img20} alt="" className="w-100 rounded" />
+					<img src={img20} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img21} alt="" className="w-100 rounded" />
+					<img src={img21} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img22} alt="" className="w-100 rounded" />
+					<img src={img22} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img23} alt="" className="w-100 rounded" />
+					<img src={img23} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img24} alt="" className="w-100 rounded" />
+					<img src={img24} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img25} alt="" className="w-100 rounded" />
+					<img src={img25} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div>
-					<img src={img26} alt="" className="w-100 rounded" />
+					<img src={img26} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 				<div className="last">
-					<img src={img1} alt="" className="w-100 rounded" />
+					<img src={img1} alt="" loading="lazy" className="w-100 rounded" />
 				</div>
 			</div>
 			{/* <p className="title my-5"></p> */}
