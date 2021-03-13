@@ -14,7 +14,7 @@ const About = () => {
 					Let's help you make those memories.
 				</p>
 				<Row className="justify-content-around my-5">
-					<Col sm="12" lg="8" className="px-lg-5 text-left">
+					<Col sm="12" lg="8" className="px-lg-5 px-0 text-left">
 						<p className="text-muted mt-5 mt-lg-0">
 							Luchume caterers is a proudly South African company 100% black
 							owned and run. It was founded in August 2020 by a couple Lungelwa
@@ -40,7 +40,7 @@ const About = () => {
 							and your family
 						</p>
 					</Col>
-					<Col sm="12" lg="4">
+					<Col sm="12" lg="4" className="px-0">
 						<iframe
 							src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F582147962468774%2Fvideos%2F2934658313309125%2F&show_text=false&width=267"
 							width="267"
