@@ -70,74 +70,32 @@ const Navigation = ({ home }) => {
 				<Nav className="ml-auto text-center" navbar>
 					<HashLink to="/#home">
 						<NavItem>
-							<NavLink
-								className={`${classText} ${activeTab == "home" && "active"}`}
-								onClick={() => {
-									setActiveTab("home");
-								}}
-							>
-								Home
-							</NavLink>
+							<NavLink className={classText}>Home</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/#about">
 						<NavItem>
-							<NavLink
-								className={`${classText} ${activeTab == "about" && "active"}`}
-								onClick={() => {
-									setActiveTab("about");
-								}}
-							>
-								About
-							</NavLink>
+							<NavLink className={classText}>About</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/#team">
 						<NavItem>
-							<NavLink
-								className={`${classText} ${activeTab == "team" && "active"}`}
-								onClick={() => {
-									setActiveTab("team");
-								}}
-							>
-								Team
-							</NavLink>
+							<NavLink className={classText}>Team</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/#event">
 						<NavItem>
-							<NavLink
-								className={`${classText} ${activeTab == "event" && "active"}`}
-								onClick={() => {
-									setActiveTab("event");
-								}}
-							>
-								Events
-							</NavLink>
+							<NavLink className={classText}>Events</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/gallery/#gallery">
 						<NavItem>
-							<NavLink
-								className={`${classText} ${activeTab == "gallery" && "active"}`}
-								onClick={() => {
-									setActiveTab("gallery");
-								}}
-							>
-								Gallery
-							</NavLink>
+							<NavLink className={classText}>Gallery</NavLink>
 						</NavItem>
 					</HashLink>
 					<HashLink to="/#contact">
 						<NavItem>
-							<NavLink
-								className={`${classText} ${activeTab == "contact" && "active"}`}
-								onClick={() => {
-									setActiveTab("contact");
-								}}
-							>
-								Contact Us
-							</NavLink>
+							<NavLink className={classText}>Contact Us</NavLink>
 						</NavItem>
 					</HashLink>
 				</Nav>

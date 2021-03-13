@@ -41,7 +41,7 @@ import img26 from "../Images/26.jpg";
 
 const Gallery = () => {
 	return (
-		<div className="w-100">
+		<div className="w-100" id="gallery">
 			<div className="my-5 py-5">
 				<p class="display-4 text-center font-weight-bold title">
 					<text className="px-lg-5">GALLERY</text>
@@ -50,7 +50,7 @@ const Gallery = () => {
 					Have a look at our magic?
 				</p>
 			</div>
-			<div className="grid w-100 p-3" id="gallery">
+			<div className="grid w-100 p-3">
 				<div>
 					<img src={img2} alt="" loading="lazy" className="w-100 rounded" />
 				</div>

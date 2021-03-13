@@ -9,16 +9,16 @@ const GallaryPage = () => {
 		<>
 			<Navigation />
 			<div className="mt-5 pt-2">
-				<div
+				{/* <div
 					style={{
 						height: "450px",
 						background: `url(${BGI})  no-repeat center center fixed`,
 						backgroundSize: "cover",
 					}}
 					className="w-100 pt-5"
-				></div>
+				></div> */}
 				<Gallery />
-				<Testimonials />
+				{/* <Testimonials /> */}
 			</div>
 		</>
 	);

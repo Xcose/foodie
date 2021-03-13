@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import { FormGroup, Input, Button, Tooltip, Label } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
-// import { SuccessMessage, ErrorMessage } from "../Shared/Notifications";
-// import Validation from "../../Validation/ContactUsValidation";
-// import emailjs from "emailjs-com";
+import { SuccessMessage, ErrorMessage } from "../Shared/Notifications";
+import Validation from "../Validation/ContactUsValidation";
+import emailjs from "emailjs-com";
 
 function ContactUs() {
 	const initialContactData = {
 		name: null,
+		subject: null,
 		email: null,
 		message: null,
 	};
@@ -33,37 +34,39 @@ function ContactUs() {
 	const clear = () => {
 		let UpdatedContactData = contactData;
 		UpdatedContactData["name"] = null;
+		UpdatedContactData["subject"] = null;
 		UpdatedContactData["email"] = null;
 		UpdatedContactData["message"] = null;
 		setContactData(UpdatedContactData);
 	};
 
-	// const Validate = () => {
-	// 	const valErrors = Validation(contactData);
+	const Validate = () => {
+		const valErrors = Validation(contactData);
 
-	// 	if (Object.keys(valErrors).length === 0) {
-	// 		onSubmit();
-	// 	} else {
-	// 		setValidationErrors(valErrors);
-	// 	}
-	// };
+		if (Object.keys(valErrors).length === 0) {
+			onSubmit();
+		} else {
+			setValidationErrors(valErrors);
+		}
+	};
 
 	const onSubmit = async () => {
-		// setIsLoading(true);
-		// try {
-		// 	await emailjs.sendForm(
-		// 		"smtp_server",
-		// 		"template_DwxJnuMN",
-		// 		"#contact_form",
-		// 		"user_2NUlgzcOgBlL7JKjxQraj"
-		// 	);
-		// 	const message = "Message has been sent!";
-		// 	SuccessMessage(message);
-		// 	clear();
-		// } catch (err) {
-		// 	ErrorMessage(err.message);
-		// }
-		// setIsLoading(false);
+		setIsLoading(true);
+		try {
+			await emailjs.sendForm(
+				"smtp_server",
+				"template_DwxJnuMN",
+				"#contact_form",
+				"user_2NUlgzcOgBlL7JKjxQraj"
+			);
+			const message = "Message has been sent!";
+			SuccessMessage(message);
+			clear();
+		} catch (err) {
+			console.log(err);
+			ErrorMessage(err.message);
+		}
+		setIsLoading(false);
 	};
 
 	return (
@@ -74,7 +77,7 @@ function ContactUs() {
 						<p className="display-4 my-5 font-weight-bold title text-center">
 							<text className="p-lg-4">GET IN TOUCH</text>
 						</p>
-						<p className="lead text-muted">
+						<p className="lead text-muted px-4 px-lg-0 text-center text-lg-left">
 							We would like to hear from you. Please fill out the form or use
 							one of out other contact platforms. We look forward to hearing
 							from you
@@ -197,7 +200,7 @@ function ContactUs() {
 						</form>
 						<Button
 							onClick={() => {
-								// Validate();
+								Validate();
 							}}
 							className="rounded-0"
 							disabled={isLoading}

@@ -11,27 +11,42 @@ const Events = () => {
 			</p>
 			<div className="my-5">
 				<div className="text-center my-5 text-muted">
-					<Row className="justify-content-center my-5">
+					<Row className="justify-content-center my-5 d-none d-lg-flex">
 						<Col sm="12" lg="4">
 							<ul className="list">
-								<li className="h2">Corporate Catering</li>
-								<li className="h2">Private Catering</li>
-								<li className="h2">Weddings</li>
-								<li className="h2">Birthdays</li>
-								<li className="h2">Anniversaries</li>
-								<li className="h2">Picnics</li>
+								<li className="h3">Corporate Catering</li>
+								<li className="h3">Private Catering</li>
+								<li className="h3">Weddings</li>
+								<li className="h3">Birthdays</li>
+								<li className="h3">Anniversaries</li>
+								<li className="h3">Picnics</li>
 							</ul>
 						</Col>
 						<Col sm="12" lg="4">
 							<ul className="list">
-								<li className="h2">Platters</li>
-								<li className="h2">Cakes</li>
-								<li className="h2">Dessert Boxes</li>
-								<li className="h2">Packed Meals</li>
-								<li className="h2">Buffet</li>
+								<li className="h3">Platters</li>
+								<li className="h3">Cakes</li>
+								<li className="h3">Dessert Boxes</li>
+								<li className="h3">Packed Meals</li>
+								<li className="h3">Buffet</li>
 							</ul>
 						</Col>
 					</Row>
+					<div className="text-center d-block d-lg-none">
+						<ul className="list">
+							<li className="h3">Corporate Catering</li>
+							<li className="h3">Private Catering</li>
+							<li className="h3">Weddings</li>
+							<li className="h3">Birthdays</li>
+							<li className="h3">Anniversaries</li>
+							<li className="h3">Picnics</li>
+							<li className="h3">Platters</li>
+							<li className="h3">Cakes</li>
+							<li className="h3">Dessert Boxes</li>
+							<li className="h3">Packed Meals</li>
+							<li className="h3">Buffet</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>

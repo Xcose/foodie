@@ -17,7 +17,7 @@ import BGI from "../Images/businessman.jpg";
 const Teams = () => {
 	return (
 		<div
-			className="m-5 text-center text-white d-flex justify-content-center align-items-center"
+			className="m-0 m-lg-5 text-center text-white d-flex justify-content-center align-items-center p-5"
 			id="team"
 			style={{
 				minHeight: "500px",

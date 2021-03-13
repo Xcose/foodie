@@ -7,6 +7,8 @@ import Footer from "./Shared/Footer";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ReactNotification from "react-notifications-component";
+import "react-notifications-component/dist/theme.css";
 import ScrollUpButton from "./Shared/ScrollUp";
 import { Helmet } from "react-helmet";
 import Logo from "./Images/Lchume_logo.png";
@@ -19,6 +21,7 @@ function App() {
 					<Helmet>
 						<link rel="icon" href={Logo} />
 					</Helmet>
+					<ReactNotification />
 					<div className="container-fluid p-0">
 						<Switch>
 							<Route path="/" exact component={Home} />

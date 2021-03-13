@@ -174,10 +174,14 @@ body,
 .page-footer {
 	background-color: #f0f0f0 !important;
 }
-.text-gold,
-.nav-link:hover,
-.nav-link.active {
+.text-gold {
 	color: goldenrod !important;
+}
+.text-black {
+	color: black !important;
+}
+.nav-link:hover {
+	text-decoration: none !important;
 }
 .bg-gold {
 	background-color: goldenrod !important;
