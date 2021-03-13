@@ -16,10 +16,12 @@ function Footer() {
 						>
 							<FontAwesomeIcon icon={faEnvelope} />
 						</a>
-
-						<abbr title="073 694 3166" className="mx-5">
+						<a href="tel:073 694 3166" className="mx-5 text-secondary">
 							<FontAwesomeIcon icon={faMobile} />
-						</abbr>
+						</a>
+						{/* <abbr title="073 694 3166" className="mx-5">
+							<FontAwesomeIcon icon={faMobile} />
+						</abbr> */}
 
 						<a
 							href="https://www.facebook.com/Luchume-caterers-582147962468774"
