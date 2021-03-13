@@ -92,7 +92,7 @@ function ContactUs() {
 							6500
 							<br />
 							<br />
-							(073) 694 3166
+							073 694 3166
 						</address>
 						<p className="h5">
 							<a href="mailto:ntembekomonde@gmail.com" className="text-reset">
