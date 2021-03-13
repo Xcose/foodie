@@ -83,13 +83,13 @@ function ContactUs() {
 							from you
 						</p>
 						<address className="lead text-muted mt-5">
-							18 The Strand Street
+							41 John Brown Street
 							<br />
-							Swartkops
+							extension 13
 							<br />
-							Port Elizabeth
+							Mossel Bay
 							<br />
-							6210
+							6500
 							<br />
 							<br />
 							(073) 694 3166

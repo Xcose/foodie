@@ -12,7 +12,7 @@ import {
 } from "reactstrap";
 import John from "../Images/happy.jpg";
 import Jane from "../Images/woman.jpg";
-import BGI from "../Images/businessman.jpg";
+import BGI from "../Images/ChefL.jpg";
 
 const Teams = () => {
 	return (
@@ -21,7 +21,8 @@ const Teams = () => {
 			id="team"
 			style={{
 				minHeight: "500px",
-				background: `url(${BGI})  no-repeat center top`,
+				background: `url(${BGI})  no-repeat center`,
+				backgroundPosition: "50% 13%",
 				backgroundSize: "cover",
 			}}
 		>
