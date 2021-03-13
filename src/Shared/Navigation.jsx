@@ -48,7 +48,7 @@ const Navigation = ({ home }) => {
 			light
 			expand="lg"
 			fixed="top"
-			className="w-100 px-lg-5"
+			className="px-lg-5 w-100"
 		>
 			<Link to="/">
 				<NavbarBrand

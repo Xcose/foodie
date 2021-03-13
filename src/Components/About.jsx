@@ -10,11 +10,11 @@ const About = () => {
 				<text className="px-lg-5">Who are we?</text>
 			</p> */}
 			<div className="lead my-5">
+				<p className="h1 my-5 my-lg-4 title-2 text-left mx-lg-5">
+					Let's help you make those memories.
+				</p>
 				<Row className="justify-content-around my-5">
 					<Col sm="12" lg="8" className="px-lg-5 text-left">
-						<p className="h1 my-5 my-lg-4 title-2">
-							Let's help you make those memories.
-						</p>
 						<p className="text-muted mt-5 mt-lg-0">
 							Luchume caterers is a proudly South African company 100% black
 							owned and run. It was founded in August 2020 by a couple Lungelwa

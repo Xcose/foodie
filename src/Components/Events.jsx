@@ -7,7 +7,7 @@ const Events = () => {
 	return (
 		<div className="py-5 text-center my-5" id="event">
 			<p class="display-4 text-center my-5 font-weight-bold title">
-				<text className="px-lg-5">WHAT'S THE OCCASSION?</text>
+				<text className="px-lg-5">WHAT'S THE EVENT?</text>
 			</p>
 			<div className="my-5">
 				<div className="text-center my-5 text-muted">

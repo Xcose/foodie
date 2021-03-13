@@ -11,8 +11,13 @@ p,
 .blockquote {
 	font-family: "PT Sans", sans-serif !important;
 }
-
 html,
+body,
+#root {
+	margin: 0% !important;
+	padding: 0% !important;
+}
+:root html,
 body,
 #root {
 	height: 100% !important;
@@ -193,6 +198,10 @@ body,
 .call-to-action:hover {
 	background-color: goldenrod !important;
 	color: white !important;
+}
+.navbar,
+.row {
+	margin-right: 0 !important;
 }
 @keyframes App-logo-spin {
 	from {
