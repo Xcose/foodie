@@ -33,7 +33,7 @@ const Events = () => {
 						</Col>
 					</Row>
 					<div className="text-center d-block d-lg-none">
-						<ul className="list">
+						<ul className="list pl-0">
 							<li className="h3">Corporate Catering</li>
 							<li className="h3">Private Catering</li>
 							<li className="h3">Weddings</li>
