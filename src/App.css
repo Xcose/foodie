@@ -201,7 +201,7 @@ body,
 }
 .navbar,
 .row {
-	margin-right: 0 !important;
+	margin: 0 !important;
 }
 @keyframes App-logo-spin {
 	from {
