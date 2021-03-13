@@ -28,9 +28,14 @@ const Hero = () => {
 						</p>
 						<Link to="/#about">
 							<Button
-								style={{ position: "absolute", bottom: "10%", left: "50%" }}
-								// color="light"
-								className="text-center rounded-circle mt-2 mt-lg-5 call-to-action"
+								style={{
+									position: "absolute",
+									bottom: "10%",
+									left: "50%",
+									transform: "translateX(-50%)",
+								}}
+								color="light"
+								className="rounded-circle mt-2 mt-lg-5 call-to-action"
 								outline
 							>
 								<FontAwesomeIcon icon={faArrowDown} />
