@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
-	Card,
-	Button,
+	Row,
+	Col,
 	CardImg,
 	CardTitle,
 	CardText,
@@ -38,99 +38,202 @@ import img23 from "../Images/23.jpg";
 import img24 from "../Images/24.jpg";
 import img25 from "../Images/25.jpg";
 import img26 from "../Images/26.jpg";
+import bg from "../Images/affair.jpg";
+import logo from "../Images/Lchume_logo.png";
 
 const Gallery = () => {
 	return (
-		<div className="w-100" id="gallery">
-			<div className="my-5 py-5">
-				<p class="display-4 text-center font-weight-bold title">
-					<text className="px-lg-5">GALLERY</text>
-				</p>
-				<p className="text-center h3 text-muted sub-title">
-					Have a look at our magic?
-				</p>
-			</div>
-			<div className="grid w-100 p-3">
-				<div>
-					<img src={img2} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img3} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img4} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img5} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img6} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img7} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img8} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img9} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img10} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img11} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img12} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img13} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img14} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img15} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img16} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img17} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img18} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img19} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img20} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img21} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img22} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img23} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img24} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img25} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div>
-					<img src={img26} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-				<div className="last">
-					<img src={img1} alt="" loading="lazy" className="w-100 rounded" />
-				</div>
-			</div>
-			{/* <p className="title my-5"></p> */}
+		<div
+			className="w-100 bg-special py-5"
+			id="gallery"
+			style={{
+				background: `url(${bg})  no-repeat center center fixed`,
+				backgroundSize: "cover",
+				backgroundBlendMode: "overlay",
+			}}
+		>
+			<Row className="justify-content-center">
+				<Col sm="12" lg="11" className="outline bg-light shadow-lg">
+					<div className="my-5 py-5">
+						<div className="text-center custom-logo">
+							<small>
+								<img src={logo} style={{ width: "50px" }} alt="logo" />
+							</small>
+						</div>
+						<p class="display-4 text-center font-weight-bold title">
+							<text className="px-lg-5 bg-light">GALLERY</text>
+						</p>
+						<p className="text-center h6 sub-title">
+							Have a look at our magic?
+						</p>
+					</div>
+					<div className="grid w-100 p-3">
+						<div>
+							<img src={img2} alt="" loading="lazy" className="w-100 rounded" />
+						</div>
+						<div>
+							<img src={img3} alt="" loading="lazy" className="w-100 rounded" />
+						</div>
+						<div>
+							<img src={img4} alt="" loading="lazy" className="w-100 rounded" />
+						</div>
+						<div>
+							<img src={img5} alt="" loading="lazy" className="w-100 rounded" />
+						</div>
+						<div>
+							<img src={img6} alt="" loading="lazy" className="w-100 rounded" />
+						</div>
+						<div>
+							<img src={img7} alt="" loading="lazy" className="w-100 rounded" />
+						</div>
+						<div>
+							<img src={img8} alt="" loading="lazy" className="w-100 rounded" />
+						</div>
+						<div>
+							<img src={img9} alt="" loading="lazy" className="w-100 rounded" />
+						</div>
+						<div>
+							<img
+								src={img10}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img11}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img12}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img13}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img14}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img15}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img16}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img17}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img18}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img19}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img20}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img21}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img22}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img23}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img24}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img25}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div>
+							<img
+								src={img26}
+								alt=""
+								loading="lazy"
+								className="w-100 rounded"
+							/>
+						</div>
+						<div className="last">
+							<img src={img1} alt="" loading="lazy" className="w-100 rounded" />
+						</div>
+					</div>
+				</Col>
+			</Row>
 		</div>
 	);
 };
