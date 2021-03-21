@@ -56,12 +56,9 @@ const Navigation = ({ home }) => {
 						home && !isDark ? "text-white" : ""
 					}`}
 				>
-					<img
-						src={Logo}
-						alt="Luchume Caterers"
-						style={{ width: "10%" }}
-						className="mr-2"
-					/>
+					<div className="logo mr-2">
+						<img src={Logo} alt="Luchume Caterers" style={{ width: "20px" }} />
+					</div>
 					<b className="d-none d-lg-block">Luchume</b>
 				</NavbarBrand>
 			</Link>
