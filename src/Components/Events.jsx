@@ -7,7 +7,7 @@ import bg from "../Images/affair.jpg";
 const Events = () => {
 	return (
 		<div
-			className="py-5 text-center my-5  bg-special"
+			className="py-0 py-lg-5 text-center my-5 bg-special"
 			style={{
 				background: `url(${bg})  no-repeat center center`,
 				backgroundSize: "cover",

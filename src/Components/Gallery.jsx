@@ -44,7 +44,7 @@ import logo from "../Images/Lchume_logo.png";
 const Gallery = () => {
 	return (
 		<div
-			className="w-100 bg-special py-5"
+			className="w-100 bg-special py-0 py-lg-5"
 			id="gallery"
 			style={{
 				background: `url(${bg})  no-repeat center center fixed`,
