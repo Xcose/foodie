@@ -32,12 +32,7 @@ function ContactUs() {
 	};
 
 	const clear = () => {
-		let UpdatedContactData = contactData;
-		UpdatedContactData["name"] = null;
-		UpdatedContactData["subject"] = null;
-		UpdatedContactData["email"] = null;
-		UpdatedContactData["message"] = null;
-		setContactData(UpdatedContactData);
+		setContactData(initialContactData);
 	};
 
 	const Validate = () => {
@@ -134,7 +129,7 @@ function ContactUs() {
 									type="email"
 									id="ContactEmail"
 									className={classText(validationErrors.email)}
-									value={contactData.email}
+									defaultValue={contactData.email}
 									onChange={(e) => {
 										onChange(e);
 									}}
@@ -157,7 +152,7 @@ function ContactUs() {
 									type="subject"
 									id="emailSubject"
 									className={classText(validationErrors.subject)}
-									value={contactData.subject}
+									defaultValue={contactData.subject}
 									onChange={(e) => {
 										onChange(e);
 									}}
@@ -180,7 +175,7 @@ function ContactUs() {
 									type="textarea"
 									id="ContactMessage"
 									className={classText(validationErrors.message)}
-									value={contactData.message}
+									defaultValue={contactData.message}
 									onChange={(e) => {
 										onChange(e);
 									}}

@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap");
 
 * {
 	font-family: "EB Garamond", serif !important;
@@ -63,7 +64,8 @@ body,
 .title,
 .title-2,
 .sub-title {
-	font-family: "Open Sans", sans-serif !important;
+	/* font-family: "Open Sans", sans-serif !important; */
+	font-family: "Cormorant SC", serif;
 	position: relative;
 }
 .title {
