@@ -7,14 +7,10 @@ import Validation from "../Validation/ContactUsValidation";
 import emailjs from "emailjs-com";
 
 function ContactUs() {
-	const initialContactData = {
-		name: null,
-		subject: null,
-		email: null,
-		message: null,
-	};
-
-	const [contactData, setContactData] = useState(initialContactData);
+	const [name, setName] = useState("");
+	const [email, setEmail] = useState("");
+	const [subject, setSubject] = useState("");
+	const [message, setMessage] = useState("");
 	const [validationErrors, setValidationErrors] = useState({});
 	const [isLoading, setIsLoading] = useState(false);
 	const [tooltipOpen, setTooltipOpen] = useState(false);
@@ -25,18 +21,20 @@ function ContactUs() {
 		return `rounded-0 italic input ${error ? "is-invalid" : ""}`;
 	};
 
-	const onChange = (e) => {
-		let UpdatedContactData = contactData;
-		UpdatedContactData[e.target.name] = e.target.value;
-		setContactData(UpdatedContactData);
-	};
-
 	const clear = () => {
-		setContactData(initialContactData);
+		setName("");
+		setSubject("");
+		setEmail("");
+		setMessage("");
 	};
 
 	const Validate = () => {
-		const valErrors = Validation(contactData);
+		const valErrors = Validation({
+			name: name,
+			subject: subject,
+			email: email,
+			message: message,
+		});
 
 		if (Object.keys(valErrors).length === 0) {
 			onSubmit();
@@ -54,8 +52,8 @@ function ContactUs() {
 				"#contact_form",
 				"user_2NUlgzcOgBlL7JKjxQraj"
 			);
-			const message = "Message has been sent!";
-			SuccessMessage(message);
+			const alertMessage = "Message has been sent!";
+			SuccessMessage(alertMessage);
 			clear();
 		} catch (err) {
 			console.log(err);
@@ -106,9 +104,9 @@ function ContactUs() {
 									type="text"
 									id="ContactName"
 									className={classText(validationErrors.name)}
-									// value={}
+									value={name}
 									onChange={(e) => {
-										onChange(e);
+										setName(e.target.value);
 									}}
 									name="name"
 								/>
@@ -129,9 +127,9 @@ function ContactUs() {
 									type="email"
 									id="ContactEmail"
 									className={classText(validationErrors.email)}
-									defaultValue={contactData.email}
+									value={email}
 									onChange={(e) => {
-										onChange(e);
+										setEmail(e.target.value);
 									}}
 									name="email"
 								/>
@@ -152,9 +150,9 @@ function ContactUs() {
 									type="subject"
 									id="emailSubject"
 									className={classText(validationErrors.subject)}
-									defaultValue={contactData.subject}
+									value={subject}
 									onChange={(e) => {
-										onChange(e);
+										setSubject(e.target.value);
 									}}
 									name="subject"
 								/>
@@ -175,9 +173,9 @@ function ContactUs() {
 									type="textarea"
 									id="ContactMessage"
 									className={classText(validationErrors.message)}
-									defaultValue={contactData.message}
+									value={message}
 									onChange={(e) => {
-										onChange(e);
+										setMessage(e.target.value);
 									}}
 									rows="3"
 									name="message"
