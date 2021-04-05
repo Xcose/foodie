@@ -87,9 +87,33 @@ function ContactUs() {
 							<br />
 							073 694 3166
 						</address>
-						<p className="h5">
+						{/* <p className="h5">
 							<a href="mailto:ntembekomonde@gmail.com" className="text-reset">
 								<u>ntembekomonde@gmail.com</u>
+							</a>
+						</p> */}
+						<p className="h5">
+							General queries -{" "}
+							<a href="mailto:info@luchumecaters.co.za" className="text-reset">
+								<u>info@luchumecaters.co.za</u>
+							</a>
+						</p>
+						<p className="h5">
+							Accounts queries -{" "}
+							<a
+								href="mailto:accounts@luchumecaters.co.za"
+								className="text-reset"
+							>
+								<u>accounts@luchumecaters.co.za</u>
+							</a>
+						</p>
+						<p className="h5">
+							Order queries -{" "}
+							<a
+								href="mailto:orders@luchumecaters.co.za"
+								className="text-reset"
+							>
+								<u>orders@luchumecaters.co.za</u>
 							</a>
 						</p>
 					</div>
