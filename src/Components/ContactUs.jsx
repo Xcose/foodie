@@ -48,9 +48,9 @@ function ContactUs() {
 		try {
 			await emailjs.sendForm(
 				"smtp_server",
-				"template_DwxJnuMN",
+				"template_peanc6k",
 				"#contact_form",
-				"user_2NUlgzcOgBlL7JKjxQraj"
+				"user_MglKQ5jv57lf8Oxvx5H8u"
 			);
 			const alertMessage = "Message has been sent!";
 			SuccessMessage(alertMessage);
@@ -78,7 +78,7 @@ function ContactUs() {
 						<address className="lead text-muted mt-5">
 							41 John Brown Street
 							<br />
-							extension 13
+							Extension 13
 							<br />
 							Mossel Bay
 							<br />
