@@ -16,28 +16,34 @@ const About = () => {
 				<Row className="justify-content-around my-5">
 					<Col sm="12" lg="8" className="px-lg-5 px-0 text-left">
 						<p className="text-muted mt-5 mt-lg-0">
-							Luchume caterers is a proudly South African company 100% black
-							owned and run. It was founded in August 2020 by a couple Lungelwa
-							Makananda and Ntembeko Monde, this was after Lungelwa who is a
-							Qualified Chef got Retrenched by one of the top Hotels due to the
-							Corona virus Pandemic.
+							Luchume caterers is a proudly 100% black South African owned and
+							run company. It was found in August 2020 by a couple, named,
+							Lungelwa Makananda and Ntembeko Monde. This was after Lungelwa,
+							who is a qualified chef got retrenched by one of the top Hotels in
+							Mosselbay due to the corona virus Pandemic.
 						</p>
 						<p className="text-muted mt-5 mt-lg-0">
-							Lungelwa who is a Port Elizabeth College graduate was left with
-							nothing but the hospitality skills and instead of doing nothing
-							Ntembeko encouraged her that "ukonakala kwebisi kukulunga kwamasi"
-							emmediately the business was registered and is run in the kitchen
-							of their home in the Town of Mossel Bay.
+							Lungelwa, a black South African female. Born and bred in Komga, is
+							a Port Elizabeth College graduate. She was left with nothing but
+							the hospitality skills she'd acquired. Instead of allowing her to
+							wallow in her sorrows, Ntembeko encouraged her, saying "ukonakala
+							kwebisi kukulunga kwamasi" which directly translates to the
+							spoiling of milk leads to getting Full cream mass.. This
+							encouraged her to think outside the box and decide to use her
+							skills to make something of her own and then immediately after
+							that, the business was registered. It is run in the kitchen of
+							their lovely family home in the town of Mossel Bay.
 						</p>
 						<p className="text-muted mt-5 mt-lg-0">
-							We are a corporate company which aims to help our clients create
-							beautiful memories through the Art of food and pastry
+							We are a small company which aims to help our clients create
+							beautiful memories through the art of food and pastry.
 						</p>
 						<p className="text-muted mt-5 mt-lg-0">
-							Our team believe in delivering excellence in all occassions. We
-							offer a high quality of catering You can trust us with your most
-							important day And we will surely make it a specialy one for you
-							and your family
+							Our team believes in delivering excellent service in all
+							occassions. We offer a high quality service of catering that you
+							can fully trust us to make your event a memorable one for you,
+							your family and your loved ones. As the saying goes "A family that
+							eats together, stays together!"
 						</p>
 					</Col>
 					<Col sm="12" lg="4" className="px-0">
