@@ -19,7 +19,7 @@ const About = () => {
 							Luchume caterers is a proudly 100% black South African owned and
 							run company. It was found in August 2020 by a couple, named,
 							Lungelwa Makananda and Ntembeko Monde. This was after Lungelwa,
-							who is a qualified chef got retrenched by one of the top Hotels in
+							who is a qualified chef got retrenched by one of the top hotels in
 							Mosselbay due to the corona virus Pandemic.
 						</p>
 						<p className="text-muted mt-5 mt-lg-0">
